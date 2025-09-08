@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://econestgen.space/sitemap.xml
+Sitemap: https://easystepvia.online/sitemap.xml

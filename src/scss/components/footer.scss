@@ -1,19 +1,18 @@
 .footer {
-  background: rgba(68, 125, 90, 0.1);
-  padding-top: 8px;
-  padding-bottom: 17px;
+  padding-top: 11px;
+  padding-bottom: 13px;
 
   @include media(desktop) {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 21px;
+    padding-bottom: 19px;
   }
 }
 
 .footer-container {
-  padding: 0 22px;
+  padding: 0;
 
   @include media(desktop) {
-    padding: 0 55px;
+    padding: 0 89px;
   }
 }
 
@@ -21,7 +20,7 @@
   margin-bottom: 20px;
 
   @include media(desktop) {
-    margin-bottom: 70px;
+    margin-bottom: 46px;
   }
 }
 
@@ -45,11 +44,11 @@
       position: absolute;
       right: -8px;
       bottom: 0;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Cinzel', sans-serif;
       font-weight: 400;
-      font-size: 10px;
+      font-size: 14px;
       text-align: center;
-      color: #151515;
+      color: #fff;
 
       @include media(desktop) {
         top: 50%;
@@ -67,11 +66,11 @@
       position: absolute;
       right: -8px;
       bottom: 0;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Cinzel', sans-serif;
       font-weight: 400;
-      font-size: 10px;
+      font-size: 14px;
       text-align: center;
-      color: #151515;
+      color: #fff;
 
       @include media(desktop) {
         top: 50%;
@@ -85,11 +84,11 @@
 }
 
 .footer-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  color: #151515;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -110,11 +109,11 @@
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  color: #151515;
+  color: #fff;
   margin-bottom: 20px;
 
   @include media(desktop) {
@@ -124,11 +123,11 @@
 }
 
 .footer-email-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  color: #151515;
+  color: #fff;
   display: flex;
   justify-content: end;
   align-items: center;
