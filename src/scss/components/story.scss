@@ -1,4 +1,9 @@
 .story-section {
+  scroll-margin-top: 30px;
+
+  @include media(desktop) {
+    scroll-margin-top: 10px;
+  }
 }
 
 .story-section-wrapper {
@@ -13,6 +18,7 @@
     padding-top: 100px;
     padding-bottom: 112px;
     max-width: 1440px;
+    scroll-margin-top: 10px;
   }
 }
 
